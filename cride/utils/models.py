@@ -1,7 +1,7 @@
 """Django custom utilities"""
 
 # Django model
-from django.db import Model
+from django.db import models
 
 
 class CRideModel(models.Model):
@@ -46,4 +46,4 @@ class CRideModel(models.Model):
         # Also applies for modified
         ordering = ["-created", "-modified"]
 
-        
+
